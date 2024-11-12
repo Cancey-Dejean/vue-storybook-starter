@@ -1,4 +1,6 @@
-import type { Preview } from "@storybook/vue3";
+import type { Preview } from "@storybook/vue3"
+
+import "../src/assets/globals.css"
 
 const preview: Preview = {
   parameters: {
@@ -9,6 +11,6 @@ const preview: Preview = {
       },
     },
   },
-};
+}
 
-export default preview;
+export default preview
