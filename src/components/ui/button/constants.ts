@@ -16,9 +16,9 @@ export const buttonSizeOptions: ButtonProps["size"][] = [
 ];
 
 export const buttonRoundedOptions: ButtonProps["rounded"][] = [
-  "md",
   "none",
   "sm",
+  "md",
   "lg",
   "xl",
   "pill",

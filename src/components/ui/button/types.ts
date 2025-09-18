@@ -7,7 +7,10 @@ export type ButtonVariants = VariantProps<typeof buttonVariants>;
 
 export interface ButtonProps extends PrimitiveProps {
   variant?: ButtonVariants["variant"];
+
   size?: ButtonVariants["size"];
   rounded?: ButtonVariants["rounded"];
   class?: HTMLAttributes["class"];
 }
+
+// size?: 'small' | 'medium' | 'large';
